@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B8C14E40A76E3F23EF8A159 /* Pods_Camera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 124771266EB56CB8F1223BA0 /* Pods_Camera.framework */; };
 		D0C0C7CB28649D7F0009A486 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C7CA28649D7F0009A486 /* AppDelegate.swift */; };
 		D0C0C7CD28649D7F0009A486 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C7CC28649D7F0009A486 /* SceneDelegate.swift */; };
-		D0C0C7CF28649D7F0009A486 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C7CE28649D7F0009A486 /* ViewController.swift */; };
+		D0C0C7CF28649D7F0009A486 /* InputLetterBodyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C7CE28649D7F0009A486 /* InputLetterBodyViewController.swift */; };
 		D0C0C7D228649D7F0009A486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C0C7D028649D7F0009A486 /* Main.storyboard */; };
 		D0C0C7D428649D810009A486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C0C7D328649D810009A486 /* Assets.xcassets */; };
 		D0C0C7D728649D810009A486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C0C7D528649D810009A486 /* LaunchScreen.storyboard */; };
+		D0C0C7E1286C7C380009A486 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0C0C7E0286C7C380009A486 /* GoogleService-Info.plist */; };
+		D0C0C7E32875BCD30009A486 /* DrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C7E22875BCD30009A486 /* DrawingViewController.swift */; };
+		D0C0C7E52875BD260009A486 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C7E42875BD260009A486 /* SignInViewController.swift */; };
+		D0C0C7E72875BD700009A486 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C7E62875BD700009A486 /* SearchViewController.swift */; };
+		D0C0C7E92875BDE50009A486 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C7E82875BDE50009A486 /* HomeViewController.swift */; };
+		D0C0C7EB2875BE2B0009A486 /* BookInfomationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C7EA2875BE2B0009A486 /* BookInfomationViewController.swift */; };
+		D0C0C7ED2875BE6F0009A486 /* BookShelfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C7EC2875BE6F0009A486 /* BookShelfViewController.swift */; };
+		D0C0C7EF2875C04F0009A486 /* ByCoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C7EE2875C04F0009A486 /* ByCoverViewController.swift */; };
+		D0C0C7F12875C09F0009A486 /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C7F02875C09F0009A486 /* ReadViewController.swift */; };
+		D0C0C7F32875C0E40009A486 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C7F22875C0E40009A486 /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07DA12BDAB168099E856DA67 /* Pods-Camera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Camera.debug.xcconfig"; path = "Target Support Files/Pods-Camera/Pods-Camera.debug.xcconfig"; sourceTree = "<group>"; };
+		124771266EB56CB8F1223BA0 /* Pods_Camera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Camera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BD39CD494141160FA3CFC29 /* Pods-Camera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Camera.release.xcconfig"; path = "Target Support Files/Pods-Camera/Pods-Camera.release.xcconfig"; sourceTree = "<group>"; };
 		D0C0C7C728649D7F0009A486 /* Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C0C7CA28649D7F0009A486 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0C0C7CC28649D7F0009A486 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D0C0C7CE28649D7F0009A486 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0C0C7CE28649D7F0009A486 /* InputLetterBodyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputLetterBodyViewController.swift; sourceTree = "<group>"; };
 		D0C0C7D128649D7F0009A486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0C0C7D328649D810009A486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0C0C7D628649D810009A486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0C0C7D828649D810009A486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0C0C7E0286C7C380009A486 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D0C0C7E22875BCD30009A486 /* DrawingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingViewController.swift; sourceTree = "<group>"; };
+		D0C0C7E42875BD260009A486 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		D0C0C7E62875BD700009A486 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		D0C0C7E82875BDE50009A486 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D0C0C7EA2875BE2B0009A486 /* BookInfomationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookInfomationViewController.swift; sourceTree = "<group>"; };
+		D0C0C7EC2875BE6F0009A486 /* BookShelfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookShelfViewController.swift; sourceTree = "<group>"; };
+		D0C0C7EE2875C04F0009A486 /* ByCoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByCoverViewController.swift; sourceTree = "<group>"; };
+		D0C0C7F02875C09F0009A486 /* ReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
+		D0C0C7F22875C0E40009A486 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B8C14E40A76E3F23EF8A159 /* Pods_Camera.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A673BC31456C918F9A9C9D2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07DA12BDAB168099E856DA67 /* Pods-Camera.debug.xcconfig */,
+				1BD39CD494141160FA3CFC29 /* Pods-Camera.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB9D880037D7BA9086CDB95A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				124771266EB56CB8F1223BA0 /* Pods_Camera.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D0C0C7BE28649D7F0009A486 = {
 			isa = PBXGroup;
 			children = (
 				D0C0C7C928649D7F0009A486 /* Camera */,
 				D0C0C7C828649D7F0009A486 /* Products */,
+				A673BC31456C918F9A9C9D2C /* Pods */,
+				CB9D880037D7BA9086CDB95A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +102,21 @@
 			children = (
 				D0C0C7CA28649D7F0009A486 /* AppDelegate.swift */,
 				D0C0C7CC28649D7F0009A486 /* SceneDelegate.swift */,
-				D0C0C7CE28649D7F0009A486 /* ViewController.swift */,
+				D0C0C7CE28649D7F0009A486 /* InputLetterBodyViewController.swift */,
 				D0C0C7D028649D7F0009A486 /* Main.storyboard */,
+				D0C0C7F22875C0E40009A486 /* CameraViewController.swift */,
+				D0C0C7F02875C09F0009A486 /* ReadViewController.swift */,
+				D0C0C7EE2875C04F0009A486 /* ByCoverViewController.swift */,
+				D0C0C7EC2875BE6F0009A486 /* BookShelfViewController.swift */,
+				D0C0C7EA2875BE2B0009A486 /* BookInfomationViewController.swift */,
+				D0C0C7E82875BDE50009A486 /* HomeViewController.swift */,
+				D0C0C7E62875BD700009A486 /* SearchViewController.swift */,
+				D0C0C7E42875BD260009A486 /* SignInViewController.swift */,
+				D0C0C7E22875BCD30009A486 /* DrawingViewController.swift */,
 				D0C0C7D328649D810009A486 /* Assets.xcassets */,
 				D0C0C7D528649D810009A486 /* LaunchScreen.storyboard */,
 				D0C0C7D828649D810009A486 /* Info.plist */,
+				D0C0C7E0286C7C380009A486 /* GoogleService-Info.plist */,
 			);
 			path = Camera;
 			sourceTree = "<group>";
@@ -74,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0C0C7DB28649D810009A486 /* Build configuration list for PBXNativeTarget "Camera" */;
 			buildPhases = (
+				EBF387BB5488B21B18FBBC29 /* [CP] Check Pods Manifest.lock */,
 				D0C0C7C328649D7F0009A486 /* Sources */,
 				D0C0C7C428649D7F0009A486 /* Frameworks */,
 				D0C0C7C528649D7F0009A486 /* Resources */,
+				5498A4E7AD78C60DA9D7F7CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0C0C7D728649D810009A486 /* LaunchScreen.storyboard in Resources */,
+				D0C0C7E1286C7C380009A486 /* GoogleService-Info.plist in Resources */,
 				D0C0C7D428649D810009A486 /* Assets.xcassets in Resources */,
 				D0C0C7D228649D7F0009A486 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +190,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5498A4E7AD78C60DA9D7F7CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Camera/Pods-Camera-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Camera/Pods-Camera-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Camera/Pods-Camera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBF387BB5488B21B18FBBC29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Camera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D0C0C7C328649D7F0009A486 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0C0C7CF28649D7F0009A486 /* ViewController.swift in Sources */,
+				D0C0C7E72875BD700009A486 /* SearchViewController.swift in Sources */,
+				D0C0C7EF2875C04F0009A486 /* ByCoverViewController.swift in Sources */,
+				D0C0C7ED2875BE6F0009A486 /* BookShelfViewController.swift in Sources */,
+				D0C0C7F12875C09F0009A486 /* ReadViewController.swift in Sources */,
+				D0C0C7CF28649D7F0009A486 /* InputLetterBodyViewController.swift in Sources */,
+				D0C0C7F32875C0E40009A486 /* CameraViewController.swift in Sources */,
+				D0C0C7E32875BCD30009A486 /* DrawingViewController.swift in Sources */,
 				D0C0C7CB28649D7F0009A486 /* AppDelegate.swift in Sources */,
+				D0C0C7E52875BD260009A486 /* SignInViewController.swift in Sources */,
+				D0C0C7E92875BDE50009A486 /* HomeViewController.swift in Sources */,
 				D0C0C7CD28649D7F0009A486 /* SceneDelegate.swift in Sources */,
+				D0C0C7EB2875BE2B0009A486 /* BookInfomationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +390,7 @@
 		};
 		D0C0C7DC28649D810009A486 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07DA12BDAB168099E856DA67 /* Pods-Camera.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +419,7 @@
 		};
 		D0C0C7DD28649D810009A486 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD39CD494141160FA3CFC29 /* Pods-Camera.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
