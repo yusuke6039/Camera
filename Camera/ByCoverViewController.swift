@@ -7,7 +7,10 @@
 
 import UIKit
 
-class ByCoverViewController: UIViewController {
+class ByCoverViewController: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource {
+    
+    var postarray:[PostData] = []
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,6 +18,14 @@ class ByCoverViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return postarray.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell:UICollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
+        return cell 
+    }
 
     /*
     // MARK: - Navigation
