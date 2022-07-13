@@ -7,14 +7,28 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
-
+class HomeViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
+   
+    
+    @IBOutlet weak var tableview: UITableView!
+    var postarray:[PostData] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        tableview.delegate = self
+        tableview.dataSource = self
         // Do any additional setup after loading the view.
     }
     
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return postarray.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        return cell
+    }
 
     /*
     // MARK: - Navigation

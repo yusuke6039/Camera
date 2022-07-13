@@ -24,6 +24,8 @@
 		D0C0C7EF2875C04F0009A486 /* ByCoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C7EE2875C04F0009A486 /* ByCoverViewController.swift */; };
 		D0C0C7F12875C09F0009A486 /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C7F02875C09F0009A486 /* ReadViewController.swift */; };
 		D0C0C7F32875C0E40009A486 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C7F22875C0E40009A486 /* CameraViewController.swift */; };
+		D0C0C7F5287EF00D0009A486 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C7F4287EF00C0009A486 /* Const.swift */; };
+		D0C0C7F7287EF53C0009A486 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C7F6287EF53C0009A486 /* PostData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		D0C0C7EE2875C04F0009A486 /* ByCoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByCoverViewController.swift; sourceTree = "<group>"; };
 		D0C0C7F02875C09F0009A486 /* ReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
 		D0C0C7F22875C0E40009A486 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		D0C0C7F4287EF00C0009A486 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		D0C0C7F6287EF53C0009A486 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +108,14 @@
 				D0C0C7CC28649D7F0009A486 /* SceneDelegate.swift */,
 				D0C0C7CE28649D7F0009A486 /* InputLetterBodyViewController.swift */,
 				D0C0C7D028649D7F0009A486 /* Main.storyboard */,
+				D0C0C7F4287EF00C0009A486 /* Const.swift */,
 				D0C0C7F22875C0E40009A486 /* CameraViewController.swift */,
 				D0C0C7F02875C09F0009A486 /* ReadViewController.swift */,
 				D0C0C7EE2875C04F0009A486 /* ByCoverViewController.swift */,
 				D0C0C7EC2875BE6F0009A486 /* BookShelfViewController.swift */,
 				D0C0C7EA2875BE2B0009A486 /* BookInfomationViewController.swift */,
 				D0C0C7E82875BDE50009A486 /* HomeViewController.swift */,
+				D0C0C7F6287EF53C0009A486 /* PostData.swift */,
 				D0C0C7E62875BD700009A486 /* SearchViewController.swift */,
 				D0C0C7E42875BD260009A486 /* SignInViewController.swift */,
 				D0C0C7E22875BCD30009A486 /* DrawingViewController.swift */,
@@ -242,6 +248,7 @@
 				D0C0C7ED2875BE6F0009A486 /* BookShelfViewController.swift in Sources */,
 				D0C0C7F12875C09F0009A486 /* ReadViewController.swift in Sources */,
 				D0C0C7CF28649D7F0009A486 /* InputLetterBodyViewController.swift in Sources */,
+				D0C0C7F7287EF53C0009A486 /* PostData.swift in Sources */,
 				D0C0C7F32875C0E40009A486 /* CameraViewController.swift in Sources */,
 				D0C0C7E32875BCD30009A486 /* DrawingViewController.swift in Sources */,
 				D0C0C7CB28649D7F0009A486 /* AppDelegate.swift in Sources */,
@@ -249,6 +256,7 @@
 				D0C0C7E92875BDE50009A486 /* HomeViewController.swift in Sources */,
 				D0C0C7CD28649D7F0009A486 /* SceneDelegate.swift in Sources */,
 				D0C0C7EB2875BE2B0009A486 /* BookInfomationViewController.swift in Sources */,
+				D0C0C7F5287EF00D0009A486 /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,9 +407,12 @@
 				DEVELOPMENT_TEAM = CAZ2MP2VX2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Camera/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "カメラにアクセスします。";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "フォトライブラリーに保存します。";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -428,9 +439,12 @@
 				DEVELOPMENT_TEAM = CAZ2MP2VX2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Camera/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "カメラにアクセスします。";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "フォトライブラリーに保存します。";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
