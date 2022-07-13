@@ -17,6 +17,8 @@ class CameraViewController: UIViewController , UINavigationControllerDelegate , 
     
     @IBOutlet weak var pictureimage: UIImageView!
     
+    @IBAction func post(_ sender: Any) {
+    }
     @IBAction func cameraButtonAction(_ sender: Any) {
 //    カメラが利用可能かチェック
     if UIImagePickerController.isSourceTypeAvailable(.camera) {
