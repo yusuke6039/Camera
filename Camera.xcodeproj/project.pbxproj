@@ -26,6 +26,8 @@
 		D0C0C7F32875C0E40009A486 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C7F22875C0E40009A486 /* CameraViewController.swift */; };
 		D0C0C7F5287EF00D0009A486 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C7F4287EF00C0009A486 /* Const.swift */; };
 		D0C0C7F7287EF53C0009A486 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C7F6287EF53C0009A486 /* PostData.swift */; };
+		D0C0C7F92884404F0009A486 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C7F82884404F0009A486 /* HomeTableViewCell.swift */; };
+		D0C0C7FB288451A50009A486 /* BookshelfCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0C7FA288451A50009A486 /* BookshelfCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		D0C0C7F22875C0E40009A486 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		D0C0C7F4287EF00C0009A486 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		D0C0C7F6287EF53C0009A486 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		D0C0C7F82884404F0009A486 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		D0C0C7FA288451A50009A486 /* BookshelfCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookshelfCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +112,10 @@
 				D0C0C7CC28649D7F0009A486 /* SceneDelegate.swift */,
 				D0C0C7CE28649D7F0009A486 /* InputLetterBodyViewController.swift */,
 				D0C0C7D028649D7F0009A486 /* Main.storyboard */,
+				D0C0C7FA288451A50009A486 /* BookshelfCollectionViewCell.swift */,
 				D0C0C7F4287EF00C0009A486 /* Const.swift */,
 				D0C0C7F22875C0E40009A486 /* CameraViewController.swift */,
+				D0C0C7F82884404F0009A486 /* HomeTableViewCell.swift */,
 				D0C0C7F02875C09F0009A486 /* ReadViewController.swift */,
 				D0C0C7EE2875C04F0009A486 /* ByCoverViewController.swift */,
 				D0C0C7EC2875BE6F0009A486 /* BookShelfViewController.swift */,
@@ -243,12 +249,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0C0C7FB288451A50009A486 /* BookshelfCollectionViewCell.swift in Sources */,
 				D0C0C7E72875BD700009A486 /* SearchViewController.swift in Sources */,
 				D0C0C7EF2875C04F0009A486 /* ByCoverViewController.swift in Sources */,
 				D0C0C7ED2875BE6F0009A486 /* BookShelfViewController.swift in Sources */,
 				D0C0C7F12875C09F0009A486 /* ReadViewController.swift in Sources */,
 				D0C0C7CF28649D7F0009A486 /* InputLetterBodyViewController.swift in Sources */,
 				D0C0C7F7287EF53C0009A486 /* PostData.swift in Sources */,
+				D0C0C7F92884404F0009A486 /* HomeTableViewCell.swift in Sources */,
 				D0C0C7F32875C0E40009A486 /* CameraViewController.swift in Sources */,
 				D0C0C7E32875BCD30009A486 /* DrawingViewController.swift in Sources */,
 				D0C0C7CB28649D7F0009A486 /* AppDelegate.swift in Sources */,

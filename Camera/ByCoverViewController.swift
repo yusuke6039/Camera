@@ -4,7 +4,7 @@
 //
 //  Created by 新宅雄介 on 2022/07/06.
 //
-
+import Firebase
 import UIKit
 
 class ByCoverViewController: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource {

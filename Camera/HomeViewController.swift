@@ -4,7 +4,7 @@
 //
 //  Created by 新宅雄介 on 2022/07/06.
 //
-
+import Firebase
 import UIKit
 
 class HomeViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
@@ -26,7 +26,18 @@ class HomeViewController: UIViewController,UITableViewDataSource,UITableViewDele
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! HomeTableViewCell
+        cell.titlelabel.text = postarray[indexPath.row].title
+        cell.authorlabel.text = postarray[indexPath.row].author
+        cell.originallabel.text = postarray[indexPath.row].originalPerson
+        var comments = ""
+        for comment in postarray[indexPath.row].comments {
+                comments += "\(comment)\n"
+            }
+        cell.commemtlabel.text = comments
+//        cell.imageview.sd_imageIndicator = SDWebImageActivityIndicator.gray
+        let imageRef = Storage.storage().reference().child(Const.ImagePath).child(postarray[indexPath.row].id + ".jpg")
+        cell.imageview.sd_setImage(with: imageRef)
         return cell
     }
 

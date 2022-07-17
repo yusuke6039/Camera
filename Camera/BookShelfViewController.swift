@@ -4,13 +4,28 @@
 //
 //  Created by 新宅雄介 on 2022/07/06.
 //
-
+import Firebase
 import UIKit
 
-class BookShelfViewController: UIViewController {
-
+class BookShelfViewController: UIViewController ,UICollectionViewDelegate,UICollectionViewDataSource{
+    
+    var postarray:[PostData] = []
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+//        Do any additional setup after loading the view.
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return postarray.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell:UICollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! BookshelfCollectionViewCell
+        return cell
+    }
 
         // Do any additional setup after loading the view.
     }

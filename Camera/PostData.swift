@@ -14,6 +14,8 @@ class PostData: NSObject {
     var original: String?
     var date: Date?
     var comments: [String] = []
+    var author: String?
+    var originalPerson: String?
     
     init(document: QueryDocumentSnapshot) {
        self.id = document.documentID
@@ -25,6 +27,10 @@ class PostData: NSObject {
         self.genre = postDic["genre"] as? String
         
         self.original = postDic["original"] as? String
+        
+        self.author = postDic["author"] as? String
+        
+        self.originalPerson = postDic["originalPerson"] as? String
     
         let timestamp = postDic["date"] as? Timestamp
         self.date = timestamp?.dateValue()
